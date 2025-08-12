@@ -1,0 +1,53 @@
+# API Keys and Secrets
+.kaggle/
+kaggle.json
+*.key
+*.pem
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Model files (optional - depends on if you want to share them)
+model/*.onnx
+model/*.pth
+model/*.pt
+
+# Data files (optional - depends on if you want to share them)
+data/
+test_images/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
